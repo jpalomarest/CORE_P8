@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Quiz Express</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+
+<body>
+<div id="page">
+
+<header class="main" id="mainHeader">
+    <h1>Quiz Express</h1>
+</header>
+
+<nav class="main" id="mainNav" role="navigation">
+    <a href="/">Home</a>
+    <a href="/quizzes">Quizzes</a>
+    <a href="/credits">Credits</a>
+</nav>
+
+<section class="main" id="mainSection">
+    <div>
+        <%- body %>
+    </div>
+</section>
+
+<footer class="main" id="mainFooter">
+    <p>This is my Quiz Express</p>
+</footer>
+
+</div>
+</body>
+</html>

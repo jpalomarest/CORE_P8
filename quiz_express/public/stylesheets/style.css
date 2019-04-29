@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://www.efeverde.com/wp-content/uploads/2019/02/fondo-marino-archivo.jpg");
+}
+
+#page{
+	background: lightblue;
+	max-width: 500px;
+	display: flex;
+	flex-flow: row wrap;
+	margin: 10px auto;
+	padding: 0px;
+}
+
+.main{
+	flex: 1 100%;
+	border: 1px solid #999;
+	padding: 2px;
+	margin: 1px;
+	background: #white;
+}
+
+#mainHeader, #mainNav, #mainFooter{
+	text-align: center;
+}
+
+#mainHeader{
+	color: white;
+	background-color: black;
+}
+
+#mainHeader h1{
+	margin: 8px;
+}
+
+#mainNav a{
+  color: red;
+  margin: 0px 5px;
+}
+
+#mainSection{
+	color: black;
+	padding: 10px;
+	text-align: center;
+}
+#mainFooter a{
+    padding: 4 px;
+    color: black;
+}
